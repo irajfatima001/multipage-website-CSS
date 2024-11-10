@@ -1,0 +1,109 @@
+.menuSection {
+    position: relative;
+    padding-top: 10rem; /* pt-40 */
+    background-color: black;
+    padding-bottom: 2.5rem; /* pb-10 */
+  }
+  
+  .headerContent {
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .heading {
+    font-size: 2rem; /* text-3xl */
+    font-family: 'serif';
+    color: #FF7F00; /* orange-400 */
+  }
+  
+  .subheading {
+    font-size: 1rem; /* text-base */
+    color: white;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .dashContainer {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .menuList {
+    margin-top: 2.5rem; /* mt-10 */
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* gap-6 */
+    margin-bottom: 2.5rem; /* mb-10 */
+    display: none;
+    list-style: none;
+  }
+  
+  @media (min-width: 640px) {
+    .menuList {
+      display: flex;
+    }
+  }
+  
+  .menuItem {
+    background-color: #F87171; /* bg-red-500 */
+    border-radius: 0.5rem; /* rounded-lg */
+    color: white;
+    padding: 0.5rem 1.5rem; /* py-2 px-6 */
+    list-style: none;
+  }
+  
+  .specialitiesItem {
+    background-color: #F97316; /* text-orange-400 */
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 1.25rem; /* gap-5 */
+    padding-top: 5rem; /* pt-20 */
+    margin: 2.5rem; /* m-10 */
+  }
+  
+  @media (min-width: 1024px) {
+    .gridContainer {
+      grid-template-columns: 50% 1fr;
+    }
+  }
+  
+  .imageWrapper {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .textContent {
+    padding-left: 2.5rem; /* pl-10 */
+    color: white;
+  }
+  
+  .itemTitle {
+    font-size: 1.25rem; /* text-xl */
+    font-family: 'serif';
+    margin-bottom: 1.25rem; /* mb-5 */
+  }
+  
+  .itemDescription {
+    font-weight: 100; /* font-thin */
+  }
+  
+  .price {
+    font-size: 1.25rem; /* text-xl */
+    color: #FF7F00; /* text-orange-400 */
+    margin-top: 1.25rem; /* mt-5 */
+    font-family: 'serif';
+  }

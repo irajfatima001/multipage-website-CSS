@@ -1,0 +1,140 @@
+.featureSection {
+  position: relative;
+  padding-top: 10rem; /* pt-40 */
+  background-color: black;
+}
+
+.headerContent {
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.25rem; 
+}
+
+.heading {
+  font-size: 4rem; 
+  font-family: 'serif';
+  color: #FF7F00; /* Orange color */
+}
+
+.subheading {
+  max-width: 550px;
+  padding-top: 1.25rem; /* pt-5 */
+  font-size: 1.25rem; /* text-lg */
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dashContainer {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Updated specialityContainer for better alignment */
+.specialityContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: flex-start;
+  gap: 2rem;
+  padding-top: 1.25rem; /* pt-3 */
+  padding-bottom: 5rem;
+  padding-right: 2.9rem; /* mb-20 */
+}
+
+.itemWrapper {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: 240px; 
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+
+
+.itemImage {
+  margin: auto;
+  object-fit: cover;
+  height: 14rem; /* h-56 */
+  width: auto;
+ 
+}
+
+
+
+.itemContent {
+  padding: 1rem;
+}
+
+.itemTitle {
+  font-size: 1.25rem; /* text-xl */
+  font-family: 'serif';
+}
+
+.starRating {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  margin-top: 1rem; /* pt-3 */
+}
+
+.starIcon {
+  height: 1.25rem; /* h-5 */
+  width: 1.25rem; /* w-5 */
+}
+
+.starFilled {
+  color: #F59E0B; /* yellow-500 */
+}
+
+.starEmpty {
+  color: #D1D5DB; /* gray-400 */
+}
+
+.itemDescription {
+  font-size: 0.875rem; /* text-sm */
+  font-family: 'serif';
+  margin-top: 0.5rem; /* mt-2 */
+}
+
+.orderButton {
+  width: 100%;
+  background-color: #FFA500; /* orange-400 */
+  color: black;
+  padding: 0.5rem 2.5rem; /* px-10 py-2 */
+  border-radius: 1rem; /* rounded-2xl */
+  margin-top: 0.5rem; /* mt-2 */
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.orderButton:hover {
+  background-color: #4B5563; /* slate-600 */
+  box-shadow: 0 4px 6px rgba(107, 114, 128, 0.5); /* shadow-xl */
+  transform: scale(1.05);
+}
+
+.orderButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.75); 
+}
+
+.orderButton:active {
+  transform: scale(0.95);
+}
+
+.backgroundImageContainer {
+  width: 100%;
+  padding: 0;
+}
+
+.backgroundImage {
+  object-fit: cover;
+}

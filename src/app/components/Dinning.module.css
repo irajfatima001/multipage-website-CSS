@@ -1,0 +1,165 @@
+/* General section styles */
+.diningSection {
+    position: relative;
+    padding-top: 5rem; /* pt-20 */
+    background-color: black;
+    padding-bottom: 2.5rem; /* pb-10 */
+  }
+  
+  .diningContainer {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+  }
+  
+  .diningHeading {
+    font-size: 2rem; /* text-3xl */
+    color: #FFA500; /* Orange color */
+    font-family: 'serif';
+  }
+  
+  .diningDescription {
+    color: white;
+    font-size: 1rem; /* text-base */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .diningButton {
+    border-width: 2px;
+    border-color: #FFA500; /* Orange color */
+    padding: 0.5rem 1.5rem; /* px-6 py-2 */
+    border-radius: 0.5rem; /* rounded-lg */
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .diningButtonPrivate {
+    background-color: #FFA500; /* Orange */
+    color: white;
+  }
+  
+  .diningButtonPrivate:hover {
+    background-color: #FF4500; /* Hover effect */
+    box-shadow: 0 4px 6px rgba(255, 69, 0, 0.5); /* Hover shadow */
+    transform: scale(1.05);
+  }
+  
+  .diningButtonCooperate {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .diningButtonCooperate:hover {
+    background-color: #FF4500; /* Hover effect */
+    box-shadow: 0 4px 6px rgba(255, 69, 0, 0.5); /* Hover shadow */
+    transform: scale(1.05);
+  }
+  
+  .diningImageContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5rem; /* Prevents image overflow */
+  }
+  
+  .diningImageWrapper {
+    position: relative;
+  }
+  
+  .diningImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0; /* Remove padding to prevent overflow */
+    display: block; /* Ensures it doesn't have extra space around it */
+  }
+  
+  .diningOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, black, black, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers content vertically and horizontally */
+    padding: 0 1rem; /* Adding horizontal padding */
+  }
+  
+  .diningOverlayRight {
+    left: auto;
+    right: 0;
+    background: linear-gradient(to left, black, black, transparent);
+    padding: 0 1rem;
+  }
+  
+  
+  .diningInfo {
+    color: white;
+    font-family: 'serif';
+  }
+  
+  .diningInfoHeading {
+    font-size: 2rem; /* text-3xl */
+    margin-bottom: 1rem; /* mb-4 */
+  }
+  
+  .diningInfoDescription {
+    font-size: 1rem; /* text-base */
+    margin-top: 0.5rem; /* mt-2 */
+  }
+  
+  @media screen and (min-width: 640px) {
+    .diningHeading {
+      font-size: 2.25rem; /* sm:text-4xl */
+    }
+  
+    .diningDescription {
+      font-size: 1.125rem; /* sm:text-lg */
+    }
+  
+    .diningButton {
+      padding: 0.625rem 2rem; /* sm:px-8 py-2 */
+    }
+  
+    .diningInfoHeading {
+      font-size: 1.5rem; /* sm:text-sm md:text-2xl */
+    }
+  
+    .diningInfoDescription {
+      font-size: 1.125rem; /* sm:text-sm md:text-md */
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .diningHeading {
+      font-size: 2.5rem; /* md:text-5xl */
+    }
+  
+    .diningDescription {
+      font-size: 1.25rem; /* md:text-xl */
+    }
+  
+    .diningButton {
+      padding: 0.75rem 2.25rem; /* md:px-12 py-3 */
+    }
+  
+    .diningInfoHeading {
+      font-size: 2rem; /* md:text-2xl */
+    }
+  
+    .diningInfoDescription {
+      font-size: 1.125rem; /* md:text-md */
+    }
+  }
+  

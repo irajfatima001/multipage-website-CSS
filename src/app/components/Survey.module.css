@@ -1,0 +1,90 @@
+.surveySection {
+    position: relative;
+    padding-top: 10rem; /* pt-40 */
+    background-color: black;
+    padding-bottom: 2.5rem; /* pb-10 */
+  }
+  
+  .headerContent {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem; /* pb-20 */
+  }
+  
+  .heading {
+    font-size: 2.25rem; /* text-4xl */
+    color: #FF7F00; /* orange-400 */
+    font-family: serif;
+    text-transform: uppercase;
+  }
+  
+  .subheading {
+    color: white;
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 100; /* font-thin */
+    margin-top: 1rem;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 1rem; /* gap-4 */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    @media (min-width: 640px) {
+      padding-left: 2rem; /* sm:px-8 */
+      padding-right: 2rem; /* sm:px-8 */
+    }
+    @media (min-width: 768px) {
+      padding-left: 3rem; /* md:px-12 */
+      padding-right: 3rem; /* md:px-12 */
+    }
+  }
+  
+  .imageWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    font-weight: 100; /* font-thin */
+  }
+  
+  .textDescription {
+    color: white;
+    font-size: 1rem; /* sm:text-base */
+    margin-top: 2rem; /* pt-8 */
+    @media (min-width: 768px) {
+      font-size: 1.125rem; /* md:text-md */
+    }
+  }
+  
+  .moreButton {
+    font-size: 1.25rem; /* text-xl */
+    color: #FF7F00; /* text-orange-400 */
+    padding-top: 1.5rem; /* pt-6 */
+    padding-bottom: 1rem; /* pt-12 */
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .moreButton:hover {
+    color: #FF5722; 
+  }

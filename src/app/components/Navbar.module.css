@@ -1,0 +1,97 @@
+.navbar {
+    position: relative;
+    padding-top: 1rem; /* pt-6 */
+    background-color: #1a1a1a; /* bg-gray-900 */
+  }
+  
+  .navbarContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; 
+  }
+  
+  .logo {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: bold;
+    font-style: italic;
+    color: #FF7F00; /* text-orange-400 */
+    font-family: serif;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 1.75rem; /* space-x-7 */
+    align-items: center;
+    list-style: none;
+    font-size: 1.25rem; /* text-xl */
+    color: white;
+    font-family: serif;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .signupBtn {
+    background-color: #F44336; /* bg-red-500 */
+    color: white;
+    padding: 0.5rem 2rem; /* px-4 */
+    border-radius: 1.5rem; /* rounded-3xl */
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .menuBtn {
+    display: none; 
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menuIcon {
+    color: #F44336; /* text-red-500 */
+  }
+  
+  /* Mobile Menu */
+  .mobileMenu {
+    position: absolute;
+    top: 4rem; 
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 10;
+  }
+  
+  .mobileLink {
+    display: block;
+    padding: 0.75rem 0;
+    color: #333;
+    font-size: 1.25rem; /* text-xl */
+    text-decoration: none;
+    font-family: serif;
+  }
+  
+  .mobileLink:hover {
+    color: #FF7F00; /* Hover effect */
+  }
+  
+  /* Media Query for Mobile */
+  @media (max-width: 768px) {
+    .menu {
+      display: none; 
+    }
+  
+    .menuBtn {
+      display: block; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .mobileMenu {
+      display: none; 
+    }
+  }

@@ -1,0 +1,105 @@
+.footerSection {
+    position: relative;
+    padding-top: 5rem; /* pt-20 */
+    background: linear-gradient(to bottom, black, transparent); 
+    padding-bottom: 4rem; /* pb-16 */
+  }
+  
+  /* Header Text */
+  .headerContent {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem; /* pb-20 */
+  }
+  
+  .headerText {
+    font-size: 1.5rem; /* text-2xl */
+    color: #FF7F00; /* orange-400 */
+    font-family: serif;
+  }
+  
+  /* Grid Container */
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem; /* gap-10 */
+    padding-left: 5rem; /* pl-20 */
+    padding-right: 5rem;
+    margin-bottom: 5rem; /* mb-20 */
+  }
+  
+  /* Logo Section */
+  .logoSection {
+    text-align: left;
+  }
+  
+  .logo {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: bold;
+    font-family: serif;
+    padding-top: 2rem; /* pt-8 */
+    color: #FF7F00;
+    font-style: italic;
+  }
+  
+  /* Quick Links */
+  .quickLinks {
+    text-align: left;
+  }
+  
+  .quickLinksTitle {
+    font-size: 1.25rem;
+    font-style: italic;
+    padding-left: 1.5rem; /* pl-6 */
+    color: #FF7F00; /* orange-400 */
+  }
+  
+  .linksList {
+    list-style: none;
+    padding-left: 1.5rem; /* pl-6 */
+  }
+  
+  .linksList li {
+    color: white;
+    font-size: 1rem; /* text-md */
+    padding-bottom: 0.5rem; /* space-y-1 */
+  }
+  
+  /* Social Icons */
+  .socialIcons {
+    display: flex;
+    gap: 1rem; /* gap-4 */
+    color: #F44336; 
+    font-size: 1.5rem; /* text-2xl */
+    padding-top: 2.5rem; /* pt-10 */
+  }
+  
+  /* Footer Bottom */
+  .footerBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem; /* py-4 */
+    margin-top: 2.5rem; /* mt-10 */
+  }
+  
+  .footerText {
+    text-align: center;
+    color: white;
+    font-size: 0.875rem; /* text-sm */
+    padding: 0 1rem; /* mx-4 */
+    margin-top: 0.5rem; /* my-2 */
+  }
+  
+  @media (min-width: 768px) {
+    .footerSection {
+      padding-top: 6rem; /* pt-24 for larger screens */
+    }
+  
+    .gridContainer {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
