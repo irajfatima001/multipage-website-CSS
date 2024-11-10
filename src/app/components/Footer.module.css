@@ -1,3 +1,4 @@
+/* Footer Section */
 .footerSection {
     position: relative;
     padding-top: 5rem; /* pt-20 */
@@ -5,7 +6,7 @@
     padding-bottom: 4rem; /* pb-16 */
   }
   
-  /* Header Text */
+  /* Header Content */
   .headerContent {
     text-align: center;
     width: 100%;
@@ -94,12 +95,78 @@
     margin-top: 0.5rem; /* my-2 */
   }
   
-  @media (min-width: 768px) {
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1024px) {
+    /* For tablets */
+    .gridContainer {
+      grid-template-columns: 1fr 1fr; /* Switch to 2 columns */
+      padding-left: 2rem; /* Reduce padding */
+      padding-right: 2rem;
+    }
+  
+    .headerText {
+      font-size: 1.25rem; /* Slightly smaller text for tablets */
+    }
+  
+    .logo {
+      font-size: 1.75rem; /* Smaller logo font size */
+    }
+  
+    .quickLinksTitle {
+      font-size: 1.125rem; /* Smaller quick link titles */
+    }
+  
+    .socialIcons {
+      font-size: 1.25rem; /* Smaller icons */
+    }
+  
+    .footerBottom {
+      padding: 0.75rem; /* Reduce footer bottom padding */
+    }
+  
+    .footerText {
+      font-size: 0.75rem; /* Smaller footer text */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* For mobile devices */
     .footerSection {
-      padding-top: 6rem; /* pt-24 for larger screens */
+      padding-top: 3rem; /* Reduced padding on smaller screens */
+      padding-bottom: 3rem;
     }
   
     .gridContainer {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr; /* Switch to 1 column layout */
+      padding-left: 1.5rem; /* Reduce padding */
+      padding-right: 1.5rem;
+      margin-bottom: 3rem; /* Adjust bottom margin */
+    }
+  
+    .headerText {
+      font-size: 1.125rem; 
+    }
+  
+    .logo {
+      font-size: 1.5rem; /* Further reduce logo font size */
+    }
+  
+    .quickLinksTitle {
+      font-size: 1rem;
+    }
+  
+    .socialIcons {
+      font-size: 1.125rem; /* Smaller social icons */
+      gap: 0.75rem; 
+    }
+  
+    .footerBottom {
+      padding: 0.5rem; /* Reduce bottom padding */
+      margin-top: 2rem; /* Reduce top margin */
+    }
+  
+    .footerText {
+      font-size: 0.6875rem; /* Smaller footer text */
     }
   }
+  
